@@ -628,14 +628,14 @@
 	}
 
 		#header h1 {
-			font-weight: 900;
-			margin: 0;
+			display: inline-block;
+			height: 100px;
 		}
 
 			#header h1 a   {
 				display: inline-block;
-				width: 200px;
-				height: 200px;
+				width: 100px;
+				height: 100px;
 				overflow: hidden;
 				border-radius: 50%;
 
