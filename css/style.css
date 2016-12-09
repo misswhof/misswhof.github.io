@@ -639,7 +639,7 @@
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
-			right: 1.5em;
+			right: 5.5em;
 			text-transform: uppercase;
 			top: 0.75em;
 		}
@@ -851,6 +851,17 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+				}
+				#banner .inner .mypic{
+					width: 200px;
+					height: 200px;
+					border-radius: 50%;
+					overflow: hidden;
+					margin: 10px auto;
+				}
+				#banner .inner .mypic img{
+					width: 100%;
+					height: auto;
 				}
 
 			#banner .inner p {
