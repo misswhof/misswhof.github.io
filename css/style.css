@@ -358,14 +358,17 @@
 					background: #df93b8;
 				}
 
-		.icon.featured {
+			.pjw-pic {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
-			text-align: center;
+			overflow: hidden;
 		}
+		.pjw-pic{
+			width: 100%;
+			height: auto;
 
+		}
 			.icon.featured:before {
 				font-size: 5em;
 				line-height: 1em;
