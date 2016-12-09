@@ -803,7 +803,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		
-		background:url("../images/banner.jpg") top center no-repeat;
+		background:url("../images/banner1.jpg") top center no-repeat;
 		color: white;
 		cursor: default;
 		padding: 6em 0;
@@ -823,10 +823,10 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(0,0,0,0.3);
 			color: white;
 			display: inline-block;
-			opacity: 0;
+			
 			padding: 3em;
 			text-align: center;
 		}
