@@ -801,11 +801,14 @@
 	
 
 	#banner {
-	
+		background-attachment: scroll, scroll, scroll, fixed;
+		
 		background:url("../images/banner.jpg") top center no-repeat;
 		color: white;
 		cursor: default;
 		padding: 6em 0;
+		-webkit-background-size: 100%;
+		background-size: 100%;
 		text-align: center;
 	}
 
