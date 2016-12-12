@@ -914,11 +914,11 @@
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background:url("../images/banner1.jpg") bottom center no-repeat;
-		
+		background-size: cover;
 		color: white;
 		padding: 5em;
 		text-align: center;
-		margin-bottom: 20px;
+		
 	}
 
 		#cta header {
@@ -931,10 +931,12 @@
 		background: #e8eef4;
 		color: #7c8081;
 		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 	#footer p{
 		text-align: center;
-		line-height: 40px;
+		
 	}
 
 /* Layer */
